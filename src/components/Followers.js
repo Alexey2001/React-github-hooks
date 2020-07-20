@@ -3,25 +3,26 @@ import { GithubContext } from '../context/context';
 import styled from 'styled-components';
 
 const Followers = () => {
-  const {followers} = React.useContext(GithubContext)
-  return ( 
+  const { followers } = React.useContext(GithubContext);
+
+  return (
     <Wrapper>
-    <div className='followers'>
-      {followers.map((follower, index) => {
-        const { avatar_url: img, html_url, login } = follower;
-        return (
-          <article key={index}>
-            <img src={img} alt={login} />
-            <div>
-              <h4>{login}</h4>
-              <a href={html_url}>{html_url}</a>
-            </div>
-          </article>
-        );
-      })}
-    </div>
-  </Wrapper>
-);
+      <div className='followers'>
+        {followers.map((follower, index) => {
+          const { avatar_url: img, html_url, login } = follower;
+          return (
+            <article key={index}>
+              <img src={img} alt={login} />
+              <div>
+                <h4>{login}</h4>
+                <a href={html_url}>{html_url}</a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.article`
@@ -30,7 +31,6 @@ const Wrapper = styled.article`
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
   position: relative;
-
   &::before {
     content: ' followers';
     position: absolute;

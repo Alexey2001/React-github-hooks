@@ -38,5 +38,25 @@ export default [
   received_events_url: "https://api.github.com/users/npismenkov/received_events",
   type: "User",
   site_admin: false
+  },
+  {
+  login: "Markseem",
+  id: 68534197,
+  node_id: "MDQ6VXNlcjY4NTM0MTk3",
+  avatar_url: "https://avatars2.githubusercontent.com/u/68534197?v=4",
+  gravatar_id: "",
+  url: "https://api.github.com/users/Markseem",
+  html_url: "https://github.com/Markseem",
+  followers_url: "https://api.github.com/users/Markseem/followers",
+  following_url: "https://api.github.com/users/Markseem/following{/other_user}",
+  gists_url: "https://api.github.com/users/Markseem/gists{/gist_id}",
+  starred_url: "https://api.github.com/users/Markseem/starred{/owner}{/repo}",
+  subscriptions_url: "https://api.github.com/users/Markseem/subscriptions",
+  organizations_url: "https://api.github.com/users/Markseem/orgs",
+  repos_url: "https://api.github.com/users/Markseem/repos",
+  events_url: "https://api.github.com/users/Markseem/events{/privacy}",
+  received_events_url: "https://api.github.com/users/Markseem/received_events",
+  type: "User",
+  site_admin: false
   }
   ]

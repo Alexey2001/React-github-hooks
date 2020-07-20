@@ -27,7 +27,7 @@ export default {
   twitter_username: null,
   public_repos: 25,
   public_gists: 1,
-  followers: 2,
+  followers: 3,
   following: 7,
   created_at: "2018-09-20T13:05:59Z",
   updated_at: "2020-07-16T19:42:36Z"
